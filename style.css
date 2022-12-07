@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+div.row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    transition: 0.3s ease-in-out;
+}
+
+div.row:hover {
+    flex-wrap: wrap;
+    width: 430px;
+}
+
+/* SIZES */
+
+div.hundred {
+    width: 100px;
+    height: 100px;
+}
+
+div.fifty {
+    width: 50px;
+    height: 50px;
+}
+
+/* LOGO */
+
+div.logo {
+    display: grid;
+    grid: 50px 50px / 50px 50px;
+}
+
+div.yellow {
+    border-radius: 100% 0 0 0;
+    background-color: #FFCC33;
+}
+
+div.green {
+    border-radius: 0 0 0 100%;
+    background-color: #C8E4D2;
+}
+
+div.blue-pink {
+    background: linear-gradient(to bottom left, #FFE0D6 0%, #FFE0D6 50%, #1294D7 50%, #1294D7 100%);
+}
+
+div.black-coral {
+    background: linear-gradient(to top left, #FC441A 0%, #FC441A 50%, #262626 50%, #262626 100%);
+}
+
+/* LETTERS */
+
+div.o {
+    background: linear-gradient(to bottom, #FFCC33 0%, #FFCC33 50%, #C8E4D2 50%, #C8E4D2 100%);
+    border-radius: 100%;
+}
+
+div.d {
+    background: linear-gradient(to left, #262626 0%, #262626 50%, #1294D7 50%, #1294D7 100%);
+    border-radius: 0 100% 100% 0;
+}
+
+div.e {
+    background: linear-gradient(to bottom, #FC441A 0%, #FC441A 50%, #FFE0D6 50%, #FFE0D6 100%);
+}
+
+
+/* 
+Yellow: #FFCC33
+Blue: #1294D7
+Pink: #FFE0D6
+Green: #C8E4D2
+Black: #262626
+Coral: #FC441A */
